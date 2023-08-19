@@ -1,0 +1,89 @@
+@font-face {
+    font-family: Helvetica;
+    src: url();
+}
+
+html,body{
+    color: white;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+.screen{
+    font-family: Helvetica;
+    font-size: larger;
+    height: 30px;
+    padding: 20px;
+    background-color: black;
+    text-align: right;
+    border: none;
+
+}
+
+.buttonn {
+    font-family: Helvetica;
+    font-size: 25px;
+    height: 75px;
+    width: 75px;
+    background-color: #1c1c1c;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 100%;
+
+}
+
+#bt1{
+    color: black;
+    background-color: #d4d4d2;
+    height: 75px;
+    width: 75px;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid black;
+
+}
+
+#bt2{
+    color: white;
+    background-color: #ff9500;
+    height: 75px;
+    width: 75px;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid black;
+}
+.row{
+    margin: 8px 0;
+}
+
+.row input{
+    height: 75px;
+    width: 75px;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: white;
+}
+#zero{
+    text-align: left;
+    height: 75px;
+    width: 151px;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.container{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
